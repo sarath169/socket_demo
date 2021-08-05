@@ -1,6 +1,7 @@
 from django.urls import path
 
-from .consumers import WSConsumer
+from .consumers import UpdtaeUserList
+
 ws_urlpatterns = [
-    path('ws_users/', WSConsumer.as_asgi())
+    path('ws_users/', UpdtaeUserList.as_asgi())
 ]

@@ -1,7 +1,7 @@
 from django.db.models.signals import post_save
 from django.core.signals import request_finished, request_started
 from django.dispatch import receiver
-from .consumers import WSConsumer
+# from .consumers import WSConsumer
 
 from .models import User
 from .views import IndexPage
