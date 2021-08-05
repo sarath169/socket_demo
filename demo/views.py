@@ -1,6 +1,5 @@
-from django.db.models import query
 from demo.serializers import UserSerializer
-from rest_framework.generics import CreateAPIView, ListAPIView
+from rest_framework.generics import CreateAPIView
 from django.shortcuts import render
 
 from .models import User
